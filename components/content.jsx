@@ -13,7 +13,7 @@ export default function View ({textEditor}) {
     return (
         <div className={`${style.qlEditor} ql-editor`}  >
                 {parse(`${textEditor}`)}
-             
+                    
         </div>
     )
 }
